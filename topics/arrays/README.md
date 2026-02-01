@@ -9,4 +9,4 @@ hash-based lookup, prefix sums for range-style reasoning, and linear scans with 
 - Two pointers and partitioning scans
 
 ## Implementations
-- 
+- `lc_0001_two_sum.py` — Hash map complement lookup in a single pass (O(n) average).
