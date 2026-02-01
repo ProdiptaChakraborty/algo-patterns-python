@@ -1,6 +1,7 @@
 """
 Title: Two Sum
 Source: LeetCode (LC-1)
+Link: https://leetcode.com/problems/two-sum/description/
 Topic: Arrays, Hash Map
 Difficulty: Medium
 
