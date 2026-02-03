@@ -10,3 +10,4 @@ hash-based lookup, prefix sums for range-style reasoning, and linear scans with 
 
 ## Implementations
 - `lc_0001_two_sum.py` — Hash map complement lookup in a single pass (O(n) average).
+- `lc_1752_check_if_array_is_sorted_and_rotated.py` — Count circular “drops”; valid rotation has at most one decrease (O(n) time, O(1) space).
