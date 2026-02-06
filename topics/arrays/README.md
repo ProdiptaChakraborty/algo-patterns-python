@@ -13,3 +13,4 @@ hash-based lookup, prefix sums for range-style reasoning, and linear scans with 
 - `lc_1752_check_if_array_is_sorted_and_rotated.py`- Count circular “drops”; valid rotation has at most one decrease (O(n) time, O(1) space).
 - `lc_0026_remove_duplicates_from_sorted_array.py`- Two pointers (write index) to compact unique values in-place (O(n) time, O(1) space).
 - `lc_0189_rotate_array.py`- In-place rotate via triple reversal (reverse all, reverse first k, reverse rest) in O(n) time.
+- `lc_0283_move_zeroes.py` — Two pointers: swap non-zeros forward, keeping order; zeros end up at the back (O(n), O(1)).
