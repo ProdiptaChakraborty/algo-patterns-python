@@ -15,3 +15,4 @@ hash-based lookup, prefix sums for range-style reasoning, and linear scans with 
 - `lc_0189_rotate_array.py`- In-place rotate via triple reversal (reverse all, reverse first k, reverse rest) in O(n) time.
 - `lc_0283_move_zeroes.py` — Two pointers: swap non-zeros forward, keeping order; zeros end up at the back (O(n), O(1)).
 - `misc_find_largest_element.py` — Compare full sorting, one-pass bubbling, and an optimal linear scan for finding the largest element.
+- `misc_second_largest_and_smallest_element.py` — Find second distinct extremes using sorting or O(n) multi-pass scanning or tracking.

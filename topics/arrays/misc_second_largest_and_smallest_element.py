@@ -3,7 +3,7 @@ Title: Second Largest and Second Smallest Element in an Array
 Source: Misc / DSA Practice
 Link:
 Topic: Arrays
-Tags: sorting, linear-scan, comparison
+Tags: sorting, linear-scan, comparison, tracking
 Difficulty: Easy
 
 
@@ -60,6 +60,8 @@ def second_large_small_element_bruteforce(arr: list):
 # Complexity:
 # Time: O(n)
 
+#better solution
+
 def better_approach_two_passes(arr:list):
     n = len(arr)
     if n == 0 or n == 1:
@@ -94,7 +96,47 @@ def better_approach_two_passes(arr:list):
     print(f" Second largest is {second_largest}\n Second smallest is {second_smallest}")
 
 
+
+# Complexity:
+# Time: O(n)
+
+# optimal solution
+def optimal_second_large_small_element(arr:list):
+      
+      n = len(arr)
+      if n == 0 or n == 1:
+           print(-1, -1)
+
      
+      largest = arr[0]
+      sec_largest=-1
+
+      for i in range(1,n):
+        
+        if arr[i]>largest:
+             sec_largest=largest
+             largest=arr[i]
+        elif arr[i]==largest:
+             pass
+        elif arr[i]<largest and arr[i]>sec_largest:
+             sec_largest=arr[i]
+      print(f"Second Largest is {sec_largest}")
+
+
+      smallest = arr[0]
+      sec_smallest = float('inf')
+
+      for i in range(1, n):
+          if arr[i] < smallest:
+              sec_smallest = smallest
+              smallest = arr[i]
+          elif arr[i] == smallest:
+              pass
+          elif arr[i] > smallest and arr[i] < sec_smallest:
+              sec_smallest = arr[i]
+
+      print(f"Second Smallest is {sec_smallest}")
+
 
 
 
@@ -103,4 +145,5 @@ if __name__ == "__main__":
 
     second_large_small_element_bruteforce(nums.copy())
     better_approach_two_passes(nums.copy())
+    optimal_second_large_small_element(nums.copy())
         
