@@ -7,6 +7,7 @@ hash-based lookup, prefix sums for range-style reasoning, and linear scans with 
 - Hash map lookup (value → index / count)
 - Prefix sums + frequency maps
 - Two pointers and partitioning scans
+and more
 
 ## Implementations
 - `lc_0001_two_sum.py`- Hash map complement lookup in a single pass (O(n) average).
@@ -16,3 +17,4 @@ hash-based lookup, prefix sums for range-style reasoning, and linear scans with 
 - `lc_0283_move_zeroes.py` — Two pointers: swap non-zeros forward, keeping order; zeros end up at the back (O(n), O(1)).
 - `misc_find_largest_element.py` — Compare full sorting, one-pass bubbling, and an optimal linear scan for finding the largest element.
 - `misc_second_largest_and_smallest_element.py` — Find second distinct extremes using sorting or O(n) multi-pass scanning or tracking.
+- `misc_check_if_array_is_sorted.py` — Check adjacent elements in one linear scan to determine whether an array is non-decreasing.
