@@ -18,3 +18,4 @@ and more
 - `misc_find_largest_element.py` — Compare full sorting, one-pass bubbling, and an optimal linear scan for finding the largest element.
 - `misc_second_largest_and_smallest_element.py` — Find second distinct extremes using sorting or O(n) multi-pass scanning or tracking.
 - `misc_check_if_array_is_sorted.py` — Check adjacent elements in one linear scan to determine whether an array is non-decreasing.
+- `lc_0026_remove_duplicates_from_sorted_arr_brute.py` — Compare set/list-based duplicate removal with the optimal O(n), O(1) two-pointer approach.
